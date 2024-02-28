@@ -34,11 +34,12 @@ class MainActivity : AppCompatActivity() {
             builder1.setPositiveButton("Submit") { dialogInterface, i ->
                 when (current_data) {
                     0 -> {
-                        Toast.makeText(this, "wrong Answers", Toast.LENGTH_SHORT).show()
+                        //second commit
+                        Toast.makeText(this, "wrong Answers ", Toast.LENGTH_SHORT).show()
                     }
 
                     1 -> {
-                        Toast.makeText(this, "wrong Answers", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "wrong Answers ", Toast.LENGTH_SHORT).show()
                     }
 
                     2 -> {
@@ -50,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     3 -> {
-                        Toast.makeText(this, "wrong Answers", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "wrong Answers ", Toast.LENGTH_SHORT).show()
                     }
                 }
             }
